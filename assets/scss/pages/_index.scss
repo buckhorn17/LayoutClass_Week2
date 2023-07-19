@@ -1,0 +1,204 @@
+.header {
+    background: black;
+    padding: 40px 24px;
+
+    li {
+        width: 306px;
+
+        &:last-child {
+            text-align: right;
+        }
+
+        a {
+            transition: 0.1s;
+
+            &:hover {
+                color: #00FFA3;
+            }
+        }
+    }
+
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.banner {
+    background: black;
+    padding: 72px 0;
+
+    .flex-sb {
+        align-items: center;
+    }
+
+    .banner-content {
+        a {
+            background: white;
+            padding: 12px 0;
+            border-radius: 32px;
+            text-align: center;
+            margin-left: auto;
+            width: 185px;
+            display: block;
+            transition: 0.2s;
+
+            span {
+                transform: translateY(6px);
+                margin-left: 4px;
+                line-height: 0;
+            }
+
+            &:hover {
+                transform: translateY(-6px);
+            }
+        }
+
+        h1 {
+            text-align: right;
+        }
+    }
+}
+
+.intro {
+    background: url('/assets/images/background-img.png') no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+
+    .intro-content {
+        width: 526px;
+    }
+
+    .intro-photo {
+        justify-content: space-between;
+
+    }
+
+}
+
+.aboutus {
+    padding: 160px 0;
+    align-items: center;
+
+    .aboutus-cards {
+        flex-wrap: wrap;
+        width: 47.224%;
+
+        .aboutus-card {
+            width: 48%;
+            border: 1px solid #E3E3E3;
+            padding: 16px;
+        }
+    }
+
+    .aboutus-content {
+        width: 40.587%;
+        margin-left: auto;
+    }
+}
+
+.contact {
+    padding: 96px 0;
+    background: -moz-linear-gradient(top, rgba(5, 0, 20, 1) 0%, rgba(1, 2, 30, 0.89) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(5, 0, 20, 1) 0%, rgba(1, 2, 30, 0.89) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(5, 0, 20, 1) 0%, rgba(1, 2, 30, 0.89) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#050014', endColorstr='#e301021e', GradientType=0);
+
+    /* IE6-9 */
+    .flex-sb {
+        align-items: center;
+    }
+
+    .contact-arrow {
+        span {
+            font-size: 80px;
+            margin-left: 16px;
+            line-height: 0;
+            transform: translateY(16px);
+        }
+    }
+
+    .icons {
+        .icon {
+            width: 162px;
+            margin-left: 20px;
+            border-radius: 40px;
+            transition: 0.2s;
+
+            &:hover {
+                box-shadow: 0 0 32px #9094FFE5;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.projects {
+    padding: 160px 0;
+
+    h2 {
+        margin-left: auto;
+        width: 57%;
+    }
+
+    .flex-sb {
+        align-items: center;
+    }
+
+    .projects-photoA {
+        margin-right: 24px;
+    }
+
+    .projects-content-item {
+        .projects-content-itemUp {
+            margin-bottom: 28px;
+
+            .projects-content-text {
+                margin-left: 24px;
+
+                p {
+                    margin-bottom: 76px;
+                }
+
+                a {
+                    background: black;
+                    padding: 12px 0;
+                    border-radius: 32px;
+                    text-align: center;
+                    width: 185px;
+                    display: block;
+                    transition: 0.2s;
+
+                    span {
+                        transform: translateY(6px);
+                        margin-left: 4px;
+                        line-height: 0;
+                    }
+
+                    &:hover {
+                        transform: translateY(-6px);
+                    }
+                }
+            }
+        }
+
+        .projects-content-itemUnder {
+            display: flex;
+            justify-content: space-between;
+
+            .projects-photoD {
+                margin-left: 24px;
+            }
+        }
+    }
+}
+
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    background: black;
+}

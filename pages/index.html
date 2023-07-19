@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <title>個人網站</title>
+</head>
+
+<body>
+
+    <%- include('./layout/header'); -%>
+
+        <div class="banner">
+            <div class="container flex-sb">
+                <img src="../assets/images/people.png" alt="photo">
+                <div class="banner-content ml24">
+                    <h2 class="ft-h2 ft-white">Hi<br>I’m a front-end developer</h2>
+                    <h1 class="ft-h1 ft-green">William</h1>
+                    <a href="#" class="ft-p3 ft-black">contact me<span class="material-icons">arrow_outward</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro">
+            <div class="container flex-sb">
+                <div class="intro-content">
+                    <h2 class="ft-h2 ft-white mb36">Introduction</h2>
+                    <p class="ft-p1 ft-white mb32">Hi, I'm William Lee, a Front-End Developer with a passion for
+                        building beautiful and responsive websites that provide an optimal user experience.</p>
+                    <div class="diamond">
+                        <img src="../assets/images/sparkle-sm.png" alt="photo">
+                        <img src="../assets/images/sparkle-sm.png" alt="photo" class="ml16">
+                        <img src="../assets/images/sparkle-sm.png" alt="photo" class="ml16">
+                    </div>
+
+                </div>
+                <div class="intro-photo flex-sb">
+                    <img src="../assets/images/sparkle.png" alt="photo" class="ml24">
+                    <img src="../assets/images/photographer.png" alt="photo" class="ml24">
+                    <img src="../assets/images/people-2.png" alt="photo" class="ml24">
+                </div>
+            </div>
+        </div>
+
+        <div class="container aboutus flex-sb">
+            <div class="aboutus-cards flex-sb">
+                <div class="aboutus-card mb24">
+                    <h3 class="ft-p2 mb4">01<br>Attention to Detail</h3>
+                    <p class="ft-p3">Meticulous code analysis and optimization.</p>
+                </div>
+                <div class="aboutus-card mb24">
+                    <h3 class="ft-p2">02<br>Adaptability</h3>
+                    <p class="ft-p3">Swift learning of new technologies.</p>
+                </div>
+                <div class="aboutus-card">
+                    <h3 class="ft-p2">03<br>Problem Solver</h3>
+                    <p class="ft-p3">Identifying and resolving issues.</p>
+                </div>
+                <div class="aboutus-card">
+                    <h3 class="ft-p2">04<br>Team Player</h3>
+                    <p class="ft-p3">Collaborates and shares ideas.</p>
+                </div>
+            </div>
+            <div class="aboutus-content">
+                <h2 class="ft-h2">About Me</h2>
+                <p class="ft-p1">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and
+                    React. I have a strong understanding of user experience design and accessibility. I'm always
+                    learning new technologies and techniques to stay up-to-date in the field.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="container flex-sb">
+                <h2 class="contact-arrow ft-h2 ft-white">
+                    CONTACT ME<span class="material-icons">arrow_right_alt</span>
+                </h2>
+                <div class="icons">
+                    <a href="#"><img src="../assets/images/discord.png" alt="icon" class="icon"></a>
+                    <a href="#"><img src="../assets/images/instagram.png" alt="icon" class="icon"></a>
+                    <a href="#"><img src="../assets/images/message.png" alt="icon" class="icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="container">
+                <h2 class="ft-h2 mb16">My Projects</h2>
+                <div class="projects-content flex-sb">
+                    <img src="../assets/images/Rectangle 10.png" alt="photoA" class="projects-photoA">
+
+                    <div class="projects-content-item flex-sb flex-wrap">
+                        <div class="projects-content-itemUp flex-sb">
+                            <img src="../assets/images/Rectangle 15.png" alt="photoB" class="projects-photoB">
+
+                            <div class="projects-content-text">
+                                <p class="ft-p3">I've worked on a variety of websites, including e-commerce sites,
+                                    blogs, and landing pages. I take pride in creating clean, efficient, and
+                                    user-friendly code.</p>
+                                <a href="#" class="ft-p3 ft-white">SEE MORE<span
+                                        class="material-icons">arrow_outward</span></a>
+                            </div>
+
+                        </div>
+                        <div class="projects-content-itemUnder">
+                            <img src="../assets/images/Rectangle 14.png" alt="photoC" class="projects-photoC">
+                            <img src="../assets/images/Rectangle 29.png" alt="photoD" class="projects-photoD">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <%- include('./layout/footer'); -%>
+
+            <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+            <script type="module" src="../main.js"></script>
+</body>
+
+</html>
